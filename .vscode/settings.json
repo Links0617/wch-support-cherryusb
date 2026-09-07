@@ -1,0 +1,51 @@
+{
+    "C_Cpp.default.includePath": [
+        "${workspaceFolder}/CherryUSB/core/*",
+        "${workspaceFolder}/CherryUSB/common/*",
+        "${workspaceFolder}/CherryUSB/demo/*",
+        "${workspaceFolder}/CherryUSB/class/adb/*",
+        "${workspaceFolder}/CherryUSB/class/aoa/*",
+        "${workspaceFolder}/CherryUSB/class/audio/*",
+        "${workspaceFolder}/CherryUSB/class/cdc/*",
+        "${workspaceFolder}/CherryUSB/class/dfu/*",
+        "${workspaceFolder}/CherryUSB/class/gamepad/*",
+        "${workspaceFolder}/CherryUSB/class/hid/*",
+        "${workspaceFolder}/CherryUSB/class/hub/*",
+        "${workspaceFolder}/CherryUSB/class/midi/*",
+        "${workspaceFolder}/CherryUSB/class/msc/*",
+        "${workspaceFolder}/CherryUSB/class/mtp/*",
+        "${workspaceFolder}/CherryUSB/class/serial/*",
+        "${workspaceFolder}/CherryUSB/class/template/*",
+        "${workspaceFolder}/CherryUSB/class/verdor/*",
+        "${workspaceFolder}/CherryUSB/class/video/*",
+        "${workspaceFolder}/CherryUSB/class/wireless/*",
+        "${workspaceFolder}/CherryUSB/port/ch32/ch32fs/*",
+        "${workspaceFolder}/CherryUSB/port/ch32/ch32hs/*",
+        "${workspaceFolder}/CherryUSB/port/ch32/ch58x/*",
+        "${workspaceFolder}/CherryUSB/port/ch32/usbhs/*",
+
+        "${workspaceFolder}/hw/ch32v30x/sdk/Core/*",
+        "${workspaceFolder}/hw/ch32v30x/sdk/Debug/*",
+        "${workspaceFolder}/hw/ch32v30x/sdk/Peripheral/inc/*",
+        "${workspaceFolder}/hw/ch32v30x/system/*",
+        "${workspaceFolder}/hw/ch32v30x/chips/ch32v303rc/board/*",
+        "${workspaceFolder}/hw/ch32v30x/chips/ch32v305rb/board/*",
+        "${workspaceFolder}/hw/ch32v30x/chips/ch32v307vc/board/*",
+
+        "${workspaceFolder}/hw/ch32v205/sdk/Core/*",
+        "${workspaceFolder}/hw/ch32v205/sdk/Debug/*",
+        "${workspaceFolder}/hw/ch32v205/sdk/Peripheral/inc/*",
+        "${workspaceFolder}/hw/ch32v205/system/*",
+        "${workspaceFolder}/hw/ch32v205/chips/ch32v205rb/board/*",
+
+        "${workspaceFolder}/hw/ch32v4x7/sdk/Core/*",
+        "${workspaceFolder}/hw/ch32v4x7/sdk/Debug/*",
+        "${workspaceFolder}/hw/ch32v4x7/sdk/Peripheral/inc/*",
+        "${workspaceFolder}/hw/ch32v4x7/system/*",
+        "${workspaceFolder}/hw/ch32v4x7/chips/ch32v4x7ve/board/*",
+    ],
+
+    "C_Cpp.default.defines": [
+        "REG_BASE0"
+    ],
+}
