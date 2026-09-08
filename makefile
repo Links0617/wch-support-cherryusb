@@ -76,6 +76,9 @@ OBJECT_FILES := \
 	$(addprefix $(OBJECT_DIR)/,$(notdir $(ASMS:.S=.o))) \
 	$(addprefix $(OBJECT_DIR)/,$(notdir $(SRCS:.c=.o))) \
 
+# --- Dependency Files ---
+-include $(OBJECT_FILES:.o=.d)
+
 # --- Target and Output Files ---
 TARGET := $(notdir $(CHIP))
 ELF_FILE := $(OUTPUT_DIR)/$(TARGET).elf
