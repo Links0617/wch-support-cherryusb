@@ -1,8 +1,7 @@
-
 # --- Include Directories ---
 INCLUDES += \
 	$(CHIP_DIR)/board \
-	CherryUSB/port/ch32/legacy/ch32fs \
+	CherryUSB/port/ch32/usbfs \
 
 # --- Assembly Source Directories ---
 ASM_DIR +=
@@ -10,7 +9,7 @@ ASM_DIR +=
 # --- C Source Directories ---
 SRC_DIR += \
 	$(CHIP_DIR)/board \
-	CherryUSB/port/ch32/legacy/ch32fs \
+	CherryUSB/port/ch32/usbfs \
 
 # --- Library Directories ---
 LIB_DIR +=

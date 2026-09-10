@@ -1,8 +1,7 @@
-
 # --- Include Directories ---
 INCLUDES += \
 	$(CHIP_DIR)/board \
-	CherryUSB/port/ch32/legacy/ch32hs \
+	CherryUSB/port/ch32/usbfs \
 
 # --- Assembly Source Directories ---
 ASM_DIR +=
@@ -10,7 +9,7 @@ ASM_DIR +=
 # --- C Source Directories ---
 SRC_DIR += \
 	$(CHIP_DIR)/board \
-	CherryUSB/port/ch32/legacy/ch32hs \
+	CherryUSB/port/ch32/usbfs \
 
 # --- Library Directories ---
 LIB_DIR +=
@@ -27,7 +26,7 @@ LIBS +=
 # --- Compiler Flags ---
 CFLAGS += \
 	-DCH32V30x_D8C \
-	-DREG_BASE0=0x40023400
+	-DREG_BASE0=0x50000000
 
 # --- Linker Flags ---
 LDFLAGS += -T "$(CHIP_DIR)/linker_script/Link.ld"

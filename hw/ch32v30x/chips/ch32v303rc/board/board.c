@@ -12,6 +12,9 @@
 /* @include */
 #include "ch32v30x.h"
 
+/* @function declaration */
+void USBD_IRQHandler(uint8_t busid);
+
 void board_init(void)
 {
     NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2);
@@ -44,5 +47,19 @@ void usb_dc_low_level_init(void)
     }
 
     RCC_AHBPeriphClockCmd(RCC_AHBPeriph_USBFS, ENABLE);
-    NVIC_EnableIRQ(OTG_FS_IRQn);
+    NVIC_EnableIRQ(USBFS_IRQn);
+}
+
+void usb_dc_low_level_deinit(uint8_t busid)
+{
+    if (busid == 0)
+    {
+        NVIC_DisableIRQ(USBFS_IRQn);
+        RCC_AHBPeriphClockCmd(RCC_AHBPeriph_USBFS, DISABLE);
+    }
+}
+
+__attribute__((interrupt("WCH-Interrupt-fast"))) void USBFS_IRQHandler(void)
+{
+    USBD_IRQHandler(0);
 }

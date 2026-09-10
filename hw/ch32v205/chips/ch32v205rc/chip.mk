@@ -1,4 +1,3 @@
-
 # --- Include Directories ---
 INCLUDES += \
 	$(CHIP_DIR)/board \
