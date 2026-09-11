@@ -19,8 +19,8 @@
         "${workspaceFolder}/CherryUSB/class/verdor/*",
         "${workspaceFolder}/CherryUSB/class/video/*",
         "${workspaceFolder}/CherryUSB/class/wireless/*",
-        "${workspaceFolder}/CherryUSB/port/ch32/usbhs/*",
-        "${workspaceFolder}/CherryUSB/port/ch32/usbfs/*",
+        "${workspaceFolder}/CherryUSB/port/wch/usbhs/*",
+        "${workspaceFolder}/CherryUSB/port/wch/usbfs/*",
 
         "${workspaceFolder}/hw/ch32f20x/sdk/Core/*",
         "${workspaceFolder}/hw/ch32f20x/sdk/Debug/*",
