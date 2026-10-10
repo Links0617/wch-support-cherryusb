@@ -105,7 +105,9 @@ SRCS += \
 	$(CURDIR)/CherryUSB/class/cdc/usbd_cdc_acm.c \
 
 # --- Add Compiler Flags ---
-CFLAGS += -D__RTTHREAD__
+CFLAGS += \
+	-D__RTTHREAD__ \
+	-DIDLE_THREAD_STACK_SIZE=1024 \
 
 # --- Object Files ---
 OBJECT_FILES := \
