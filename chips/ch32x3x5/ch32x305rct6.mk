@@ -14,6 +14,7 @@ CFLAGS += \
 
 ifeq ($(IP),usbhs)
 CFLAGS += \
+	-DUSB_IP=0 \
 	-DUSBD_REG_BASE0=0x40030000 \
 	-DUSBH_REG_BASE0=0x40030100
 endif

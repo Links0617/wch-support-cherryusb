@@ -1,5 +1,5 @@
 # --- Supported IPs ---
-SUPPORT_IPS := usbhs
+SUPPORT_IPS := usbhs usbss
 
 # --- Default IP ---
 ifeq ($(IP),)
@@ -14,6 +14,14 @@ CFLAGS += \
 
 ifeq ($(IP),usbhs)
 CFLAGS += \
+	-DUSB_IP=0 \
 	-DUSBD_REG_BASE0=0x40030000 \
 	-DUSBH_REG_BASE0=0x40030100
+endif
+
+ifeq ($(IP),usbss)
+CFLAGS += \
+	-DUSB_IP=1 \
+	-DUSBD_REG_BASE0=0x40038000 \
+	-DUSBH_REG_BASE0=0x40038000
 endif
