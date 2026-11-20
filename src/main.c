@@ -14,14 +14,8 @@
 
 /* @function declaration */
 void cdc_acm_init(uint8_t busid, uintptr_t reg_base);
-void cdc_acm_data_send_with_dtr_test(uint8_t busid);
 
 int main(void)
 {
     cdc_acm_init(0, USBD_REG_BASE0);
-
-    while (1)
-    {
-        cdc_acm_data_send_with_dtr_test(0);
-    }
 }
