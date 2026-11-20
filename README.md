@@ -6,13 +6,13 @@
 
 | 系列 | 芯片 | IP | 工具链 |
 | --- | --- | --- | --- |
-| CH32H417 | ch32h415reu6 / ch32h416rdu6 / ch32h417meu6 / ch32h417qeu6 / ch32h417weu6 | usbfs / usbhs | RISC-V Embedded GCC15 |
+| CH32H417 | ch32h415reu6 / ch32h416rdu6 / ch32h417meu6 / ch32h417qeu6 / ch32h417weu6 | usbfs / usbhs / usbss | RISC-V Embedded GCC15 |
 | CH32L103 | ch32l103c8t6 / ch32l103f8p6 / ch32l103f8u6 / ch32l103g8r6 / ch32l103k8u6 / ch32l103k8u7 / ch32m103g8r6 | usbfs | RISC-V Embedded GCC15 |
 | CH32V4x7 | ch32v407ret6 / ch32v407vet6 / ch32v407weu6 / ch32v467ret6 / ch32v467vet6 / ch32v467weu6 | usbhs | RISC-V Embedded GCC15 |
 | CH32V20x | ch32v208wbu6 / ch32v208rbt6 / ch32v208cbu6 / ch32v208gbu6 / ch32v203rbt6 / ch32v203c8u6 / ch32v203c8t6 / ch32v203k8u7 / ch32v203k8t6 / ch32v203g8r6 / ch32v203f8u6 / ch32v203f8p6 / ch32v203c6u6 / ch32v203c6t6 / ch32v203g6u6 / ch32v203f6p6 | usbfs | RISC-V Embedded GCC |
 | CH32V30x | ch32v303cbt6 / ch32v303rbt6 / ch32v303rct6 / ch32v303rct7 / ch32v303vct6 / ch32v305cct6 / ch32v305fbp6 / ch32v305gbu6 / ch32v305rbt6 / ch32v307rct6 / ch32v307vct6 / ch32v307wcu6 / ch32v317vct6 / ch32v317wcu6 | usbfs | RISC-V Embedded GCC |
 | CH32V205 | ch32v203cct6 / ch32v205cct6 / ch32v205rct6 / ch32v205vct6 | usbfs / usbhs | RISC-V Embedded GCC12 |
-| CH32X3x5 | ch32x305rct6 / ch32x315ccu6 / ch32x315mcu6 / ch32x315wcu6 | usbhs | RISC-V Embedded GCC15 |
+| CH32X3x5 | ch32x305rct6 / ch32x315ccu6 / ch32x315mcu6 / ch32x315wcu6 | usbhs / usbss | RISC-V Embedded GCC15 |
 
 ## 目录结构
 
